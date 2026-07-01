@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="AIDEVME.PCF" constructor="EntitySelector" version="0.0.1" display-name-key="EntitySelector" description-key="EntitySelector description" control-type="virtual" >
+    <external-service-usage enabled="false"/>
+    <property name="entityProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <property name="sortTypeProperty" display-name-key="sortTypeProperty_Display_Key" description-key="sortTypeProperty_Desc_Key" of-type="Enum" usage="input" default-value="1">
+      <value name="orderByName" display-name-key="sortType_orderByName_Display_Key" description-key="sortType_orderByName_Desc_Key">0</value>
+      <value name="orderByObjectTypeCode" display-name-key="sortType_orderByObjectTypeCode_Display_Key" description-key="sortType_orderByObjectTypeCode_Desc_Key">1</value>
+    </property>
+    <property name="entitySelectorOptionDisplayModeProperty" display-name-key="entitySelectorOptionDisplayModeProperty_Display_Key" description-key="entitySelectorOptionDisplayModeProperty_Desc_Key" of-type="Enum" usage="input" default-value="0">
+      <value name="entityNameOnly" display-name-key="entityNameOnly_Display_Key" description-key="entityNameOnly_Desc_Key">0</value>
+      <value name="entityNameAndSchemaName" display-name-key="entityNameAndSchemaName_Display_Key" description-key="entityNameAndSchemaName_Desc_Key">1</value>
+    </property>
+    <resources>
+      <code path="index.ts" order="1"/>
+      <platform-library name="React" version="16.14.0"/>
+      <platform-library name="Fluent" version="9.46.2"/>
+      <resx path="strings/EntitySelector.1033.resx" version="1.0.0"/>
+      <resx path="strings/EntitySelector.1031.resx" version="1.0.0"/>
+      <resx path="strings/EntitySelector.1043.resx" version="1.0.0"/>
+    </resources>
+    <feature-usage>
+      <uses-feature name="Utility" required="true"/>
+      <uses-feature name="WebAPI" required="true"/>
+    </feature-usage>
+  </control>
+</manifest>

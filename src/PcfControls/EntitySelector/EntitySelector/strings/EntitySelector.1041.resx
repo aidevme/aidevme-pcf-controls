@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+<xsd:import namespace="https://www.w3.org/XML/1998/namespace" />
+<xsd:element name="root" msdata:IsDataSet="true">
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded">
+  <xsd:element name="metadata">
+	<xsd:complexType>
+	  <xsd:sequence>
+		<xsd:element name="value" type="xsd:string" minOccurs="0" />
+	  </xsd:sequence>
+	  <xsd:attribute name="name" use="required" type="xsd:string" />
+	  <xsd:attribute name="type" type="xsd:string" />
+	  <xsd:attribute name="mimetype" type="xsd:string" />
+	  <xsd:attribute ref="xml:space" />
+	</xsd:complexType>
+  </xsd:element>
+  <xsd:element name="assembly">
+	<xsd:complexType>
+	  <xsd:attribute name="alias" type="xsd:string" />
+	  <xsd:attribute name="name" type="xsd:string" />
+	</xsd:complexType>
+  </xsd:element>
+  <xsd:element name="data">
+	<xsd:complexType>
+	  <xsd:sequence>
+		<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+		<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+	  </xsd:sequence>
+	  <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+	  <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+	  <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+	  <xsd:attribute ref="xml:space" />
+	</xsd:complexType>
+  </xsd:element>
+  <xsd:element name="resheader">
+	<xsd:complexType>
+	  <xsd:sequence>
+		<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+	  </xsd:sequence>
+	  <xsd:attribute name="name" type="xsd:string" use="required" />
+	</xsd:complexType>
+  </xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="resmimetype">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="version">
+<value>2.0</value>
+</resheader>
+<resheader name="reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<data name="Control_Display_Name_Key" xml:space="preserve">
+    <value>エンティティ セレクター</value>
+</data>
+<data name="Control_Description_Key" xml:space="preserve">
+    <value>使用可能なすべての Dataverse エンティティを一覧表示し、ユーザーが 1 つを選択できる検索可能なコンボ ボックスです。選択したエンティティの論理名がバインドされたフィールドに書き込まれます。並べ替え順序 (表示名またはオブジェクト タイプ コード) とオプション ラベルの形式 (表示名のみ、または表示名とスキーマ名) を構成できます。</value>
+</data>
+<data name="Property_Display_Key" xml:space="preserve">
+    <value>エンティティの論理名</value>
+</data>
+<data name="Property_Desc_Key" xml:space="preserve">
+    <value>選択した Dataverse エンティティの論理名です。読み込み時にバインドされたフィールドの値から事前に設定され、ユーザーが新しい選択を行うたびに更新されます。</value>
+</data>
+<data name="sortTypeProperty_Display_Key" xml:space="preserve">
+    <value>並べ替え順序</value>
+</data>
+<data name="sortTypeProperty_Desc_Key" xml:space="preserve">
+    <value>ドロップダウンにエンティティが表示される順序を制御します。</value>
+</data>
+<data name="sortType_orderByName_Display_Key" xml:space="preserve">
+    <value>表示名順</value>
+</data>
+<data name="sortType_orderByName_Desc_Key" xml:space="preserve">
+    <value>エンティティは表示名でアルファベット順に並べ替えられます。</value>
+</data>
+<data name="sortType_orderByObjectTypeCode_Display_Key" xml:space="preserve">
+    <value>オブジェクト タイプ コード順</value>
+</data>
+<data name="sortType_orderByObjectTypeCode_Desc_Key" xml:space="preserve">
+    <value>エンティティはオブジェクト タイプ コードで数値順に並べ替えられます。</value>
+</data>
+<data name="entitySelectorOptionDisplayModeProperty_Display_Key" xml:space="preserve">
+    <value>オプション ラベルの形式</value>
+</data>
+<data name="entitySelectorOptionDisplayModeProperty_Desc_Key" xml:space="preserve">
+    <value>ドロップダウン リストで各エンティティがどのようにラベル付けされるかを制御します。</value>
+</data>
+<data name="entityNameOnly_Display_Key" xml:space="preserve">
+    <value>表示名のみ</value>
+</data>
+<data name="entityNameOnly_Desc_Key" xml:space="preserve">
+    <value>各オプションにはエンティティの表示名のみが表示されます (例: 「取引先企業」)。</value>
+</data>
+<data name="entityNameAndSchemaName_Display_Key" xml:space="preserve">
+    <value>表示名とスキーマ名</value>
+</data>
+<data name="entityNameAndSchemaName_Desc_Key" xml:space="preserve">
+    <value>各オプションには、エンティティの表示名とそれに続く論理名が表示されます (例: 「取引先企業 - account」)。</value>
+</data>
+<data name="Placeholder_Key" xml:space="preserve">
+    <value>エンティティを選択...</value>
+</data>
+</root>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+<xsd:import namespace="https://www.w3.org/XML/1998/namespace" />
+<xsd:element name="root" msdata:IsDataSet="true">
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded">
+  <xsd:element name="metadata">
+	<xsd:complexType>
+	  <xsd:sequence>
+		<xsd:element name="value" type="xsd:string" minOccurs="0" />
+	  </xsd:sequence>
+	  <xsd:attribute name="name" use="required" type="xsd:string" />
+	  <xsd:attribute name="type" type="xsd:string" />
+	  <xsd:attribute name="mimetype" type="xsd:string" />
+	  <xsd:attribute ref="xml:space" />
+	</xsd:complexType>
+  </xsd:element>
+  <xsd:element name="assembly">
+	<xsd:complexType>
+	  <xsd:attribute name="alias" type="xsd:string" />
+	  <xsd:attribute name="name" type="xsd:string" />
+	</xsd:complexType>
+  </xsd:element>
+  <xsd:element name="data">
+	<xsd:complexType>
+	  <xsd:sequence>
+		<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+		<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+	  </xsd:sequence>
+	  <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+	  <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+	  <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+	  <xsd:attribute ref="xml:space" />
+	</xsd:complexType>
+  </xsd:element>
+  <xsd:element name="resheader">
+	<xsd:complexType>
+	  <xsd:sequence>
+		<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+	  </xsd:sequence>
+	  <xsd:attribute name="name" type="xsd:string" use="required" />
+	</xsd:complexType>
+  </xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="resmimetype">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="version">
+<value>2.0</value>
+</resheader>
+<resheader name="reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<data name="Control_Display_Name_Key" xml:space="preserve">
+    <value>Bộ chọn thực thể</value>
+</data>
+<data name="Control_Description_Key" xml:space="preserve">
+    <value>Hộp danh sách kết hợp có thể tìm kiếm liệt kê tất cả các thực thể Dataverse hiện có và cho phép người dùng chọn một thực thể. Tên logic của thực thể đã chọn được ghi vào trường liên kết. Thứ tự sắp xếp (theo tên hiển thị hoặc mã loại đối tượng) và định dạng nhãn tùy chọn (chỉ tên hiển thị hoặc tên hiển thị kèm tên lược đồ) có thể tùy chỉnh.</value>
+</data>
+<data name="Property_Display_Key" xml:space="preserve">
+    <value>Tên logic của thực thể</value>
+</data>
+<data name="Property_Desc_Key" xml:space="preserve">
+    <value>Tên logic của thực thể Dataverse đã chọn. Được điền sẵn khi tải từ giá trị trường liên kết; được cập nhật mỗi khi người dùng thực hiện lựa chọn mới.</value>
+</data>
+<data name="sortTypeProperty_Display_Key" xml:space="preserve">
+    <value>Thứ tự sắp xếp</value>
+</data>
+<data name="sortTypeProperty_Desc_Key" xml:space="preserve">
+    <value>Kiểm soát thứ tự liệt kê các thực thể trong danh sách thả xuống.</value>
+</data>
+<data name="sortType_orderByName_Display_Key" xml:space="preserve">
+    <value>Theo tên hiển thị</value>
+</data>
+<data name="sortType_orderByName_Desc_Key" xml:space="preserve">
+    <value>Các thực thể được sắp xếp theo thứ tự bảng chữ cái dựa trên tên hiển thị.</value>
+</data>
+<data name="sortType_orderByObjectTypeCode_Display_Key" xml:space="preserve">
+    <value>Theo mã loại đối tượng</value>
+</data>
+<data name="sortType_orderByObjectTypeCode_Desc_Key" xml:space="preserve">
+    <value>Các thực thể được sắp xếp theo số dựa trên mã loại đối tượng.</value>
+</data>
+<data name="entitySelectorOptionDisplayModeProperty_Display_Key" xml:space="preserve">
+    <value>Định dạng nhãn tùy chọn</value>
+</data>
+<data name="entitySelectorOptionDisplayModeProperty_Desc_Key" xml:space="preserve">
+    <value>Kiểm soát cách gắn nhãn từng thực thể trong danh sách thả xuống.</value>
+</data>
+<data name="entityNameOnly_Display_Key" xml:space="preserve">
+    <value>Chỉ tên hiển thị</value>
+</data>
+<data name="entityNameOnly_Desc_Key" xml:space="preserve">
+    <value>Mỗi tùy chọn chỉ hiển thị tên hiển thị của thực thể (ví dụ: "Tài khoản").</value>
+</data>
+<data name="entityNameAndSchemaName_Display_Key" xml:space="preserve">
+    <value>Tên hiển thị và tên lược đồ</value>
+</data>
+<data name="entityNameAndSchemaName_Desc_Key" xml:space="preserve">
+    <value>Mỗi tùy chọn hiển thị tên hiển thị của thực thể theo sau là tên logic của thực thể (ví dụ: "Tài khoản - account").</value>
+</data>
+<data name="Placeholder_Key" xml:space="preserve">
+    <value>Chọn thực thể...</value>
+</data>
+</root>

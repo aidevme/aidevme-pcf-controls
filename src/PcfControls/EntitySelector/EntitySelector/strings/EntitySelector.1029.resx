@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+<xsd:import namespace="https://www.w3.org/XML/1998/namespace" />
+<xsd:element name="root" msdata:IsDataSet="true">
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded">
+  <xsd:element name="metadata">
+	<xsd:complexType>
+	  <xsd:sequence>
+		<xsd:element name="value" type="xsd:string" minOccurs="0" />
+	  </xsd:sequence>
+	  <xsd:attribute name="name" use="required" type="xsd:string" />
+	  <xsd:attribute name="type" type="xsd:string" />
+	  <xsd:attribute name="mimetype" type="xsd:string" />
+	  <xsd:attribute ref="xml:space" />
+	</xsd:complexType>
+  </xsd:element>
+  <xsd:element name="assembly">
+	<xsd:complexType>
+	  <xsd:attribute name="alias" type="xsd:string" />
+	  <xsd:attribute name="name" type="xsd:string" />
+	</xsd:complexType>
+  </xsd:element>
+  <xsd:element name="data">
+	<xsd:complexType>
+	  <xsd:sequence>
+		<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+		<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+	  </xsd:sequence>
+	  <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+	  <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+	  <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+	  <xsd:attribute ref="xml:space" />
+	</xsd:complexType>
+  </xsd:element>
+  <xsd:element name="resheader">
+	<xsd:complexType>
+	  <xsd:sequence>
+		<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+	  </xsd:sequence>
+	  <xsd:attribute name="name" type="xsd:string" use="required" />
+	</xsd:complexType>
+  </xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="resmimetype">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="version">
+<value>2.0</value>
+</resheader>
+<resheader name="reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<data name="Control_Display_Name_Key" xml:space="preserve">
+    <value>Výběr entity</value>
+</data>
+<data name="Control_Description_Key" xml:space="preserve">
+    <value>Vyhledávatelné rozbalovací pole, které zobrazuje seznam všech dostupných entit Dataverse a umožňuje uživateli vybrat jednu z nich. Logický název vybrané entity se zapíše do vázaného pole. Řazení (podle zobrazovaného názvu nebo kódu typu objektu) a formát popisku možnosti (pouze zobrazovaný název, nebo zobrazovaný název se schématickým názvem) lze nastavit.</value>
+</data>
+<data name="Property_Display_Key" xml:space="preserve">
+    <value>Logický název entity</value>
+</data>
+<data name="Property_Desc_Key" xml:space="preserve">
+    <value>Logický název vybrané entity Dataverse. Při načtení se přednastaví z hodnoty vázaného pole a aktualizuje se při každém novém výběru uživatele.</value>
+</data>
+<data name="sortTypeProperty_Display_Key" xml:space="preserve">
+    <value>Řazení</value>
+</data>
+<data name="sortTypeProperty_Desc_Key" xml:space="preserve">
+    <value>Určuje pořadí, v jakém jsou entity zobrazeny v rozbalovacím seznamu.</value>
+</data>
+<data name="sortType_orderByName_Display_Key" xml:space="preserve">
+    <value>Podle zobrazovaného názvu</value>
+</data>
+<data name="sortType_orderByName_Desc_Key" xml:space="preserve">
+    <value>Entity jsou seřazeny abecedně podle zobrazovaného názvu.</value>
+</data>
+<data name="sortType_orderByObjectTypeCode_Display_Key" xml:space="preserve">
+    <value>Podle kódu typu objektu</value>
+</data>
+<data name="sortType_orderByObjectTypeCode_Desc_Key" xml:space="preserve">
+    <value>Entity jsou seřazeny číselně podle kódu typu objektu.</value>
+</data>
+<data name="entitySelectorOptionDisplayModeProperty_Display_Key" xml:space="preserve">
+    <value>Formát popisku možnosti</value>
+</data>
+<data name="entitySelectorOptionDisplayModeProperty_Desc_Key" xml:space="preserve">
+    <value>Určuje, jak je každá entita popsána v rozbalovacím seznamu.</value>
+</data>
+<data name="entityNameOnly_Display_Key" xml:space="preserve">
+    <value>Pouze zobrazovaný název</value>
+</data>
+<data name="entityNameOnly_Desc_Key" xml:space="preserve">
+    <value>Každá možnost zobrazuje pouze zobrazovaný název entity (např. „Účet").</value>
+</data>
+<data name="entityNameAndSchemaName_Display_Key" xml:space="preserve">
+    <value>Zobrazovaný název a název schématu</value>
+</data>
+<data name="entityNameAndSchemaName_Desc_Key" xml:space="preserve">
+    <value>Každá možnost zobrazuje zobrazovaný název entity následovaný jejím logickým názvem (např. „Účet – account").</value>
+</data>
+<data name="Placeholder_Key" xml:space="preserve">
+    <value>Vyberte entitu...</value>
+</data>
+</root>

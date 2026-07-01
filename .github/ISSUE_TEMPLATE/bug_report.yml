@@ -9,7 +9,7 @@ body:
       label: Affected control
       description: Which PCF control is affected?
       options:
-        - PCF Control 1
+        - Entity Selector
         - PCF Control 2
         - PCF Control 3
         - Other / not sure

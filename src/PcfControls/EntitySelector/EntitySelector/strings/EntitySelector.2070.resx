@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+<xsd:import namespace="https://www.w3.org/XML/1998/namespace" />
+<xsd:element name="root" msdata:IsDataSet="true">
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded">
+  <xsd:element name="metadata">
+	<xsd:complexType>
+	  <xsd:sequence>
+		<xsd:element name="value" type="xsd:string" minOccurs="0" />
+	  </xsd:sequence>
+	  <xsd:attribute name="name" use="required" type="xsd:string" />
+	  <xsd:attribute name="type" type="xsd:string" />
+	  <xsd:attribute name="mimetype" type="xsd:string" />
+	  <xsd:attribute ref="xml:space" />
+	</xsd:complexType>
+  </xsd:element>
+  <xsd:element name="assembly">
+	<xsd:complexType>
+	  <xsd:attribute name="alias" type="xsd:string" />
+	  <xsd:attribute name="name" type="xsd:string" />
+	</xsd:complexType>
+  </xsd:element>
+  <xsd:element name="data">
+	<xsd:complexType>
+	  <xsd:sequence>
+		<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+		<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+	  </xsd:sequence>
+	  <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+	  <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+	  <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+	  <xsd:attribute ref="xml:space" />
+	</xsd:complexType>
+  </xsd:element>
+  <xsd:element name="resheader">
+	<xsd:complexType>
+	  <xsd:sequence>
+		<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+	  </xsd:sequence>
+	  <xsd:attribute name="name" type="xsd:string" use="required" />
+	</xsd:complexType>
+  </xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="resmimetype">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="version">
+<value>2.0</value>
+</resheader>
+<resheader name="reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<data name="Control_Display_Name_Key" xml:space="preserve">
+    <value>Seletor de Entidades</value>
+</data>
+<data name="Control_Description_Key" xml:space="preserve">
+    <value>Uma caixa de combinação pesquisável que lista todas as entidades do Dataverse disponíveis e permite ao utilizador selecionar uma. O nome lógico da entidade selecionada é escrito no campo associado. A ordem de ordenação (por nome a apresentar ou código de tipo de objeto) e o formato da etiqueta das opções (apenas o nome a apresentar, ou o nome a apresentar com o nome do esquema) são configuráveis.</value>
+</data>
+<data name="Property_Display_Key" xml:space="preserve">
+    <value>Nome lógico da entidade</value>
+</data>
+<data name="Property_Desc_Key" xml:space="preserve">
+    <value>O nome lógico da entidade do Dataverse selecionada. Pré-preenchido no carregamento a partir do valor do campo associado; atualizado sempre que o utilizador faz uma nova seleção.</value>
+</data>
+<data name="sortTypeProperty_Display_Key" xml:space="preserve">
+    <value>Ordem de ordenação</value>
+</data>
+<data name="sortTypeProperty_Desc_Key" xml:space="preserve">
+    <value>Controla a ordem pela qual as entidades são apresentadas na lista pendente.</value>
+</data>
+<data name="sortType_orderByName_Display_Key" xml:space="preserve">
+    <value>Por nome a apresentar</value>
+</data>
+<data name="sortType_orderByName_Desc_Key" xml:space="preserve">
+    <value>As entidades são ordenadas alfabeticamente pelo respetivo nome a apresentar.</value>
+</data>
+<data name="sortType_orderByObjectTypeCode_Display_Key" xml:space="preserve">
+    <value>Por código de tipo de objeto</value>
+</data>
+<data name="sortType_orderByObjectTypeCode_Desc_Key" xml:space="preserve">
+    <value>As entidades são ordenadas numericamente pelo respetivo código de tipo de objeto.</value>
+</data>
+<data name="entitySelectorOptionDisplayModeProperty_Display_Key" xml:space="preserve">
+    <value>Formato da etiqueta das opções</value>
+</data>
+<data name="entitySelectorOptionDisplayModeProperty_Desc_Key" xml:space="preserve">
+    <value>Controla a forma como cada entidade é rotulada na lista pendente.</value>
+</data>
+<data name="entityNameOnly_Display_Key" xml:space="preserve">
+    <value>Apenas o nome a apresentar</value>
+</data>
+<data name="entityNameOnly_Desc_Key" xml:space="preserve">
+    <value>Cada opção mostra apenas o nome a apresentar da entidade (por exemplo, "Conta").</value>
+</data>
+<data name="entityNameAndSchemaName_Display_Key" xml:space="preserve">
+    <value>Nome a apresentar e nome do esquema</value>
+</data>
+<data name="entityNameAndSchemaName_Desc_Key" xml:space="preserve">
+    <value>Cada opção mostra o nome a apresentar da entidade seguido do respetivo nome lógico (por exemplo, "Conta - account").</value>
+</data>
+<data name="Placeholder_Key" xml:space="preserve">
+    <value>Selecionar entidade...</value>
+</data>
+</root>
